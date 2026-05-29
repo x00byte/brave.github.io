@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subdomain Takeover Demo</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: #f0f6fc;
+    }
+
+    .card {
+      max-width: 720px;
+      padding: 48px;
+      border: 1px solid #30363d;
+      border-radius: 18px;
+      background: #161b22;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: 42px;
+      color: #ff4d4d;
+    }
+
+    h2 {
+      margin: 0 0 24px;
+      font-size: 26px;
+      color: #58a6ff;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #c9d1d9;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      background: #238636;
+      color: white;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      font-size: 14px;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Subdomain Takeover</h1>
+    <h2>Proof of Concept</h2>
+
+    <p>
+      This page demonstrates that the referenced subdomain is serving content
+      from a cloud resource controlled by the reporter.
+    </p>
+
+    <div class="tag">Intigriti-Zerodown</div>
+
+    <div class="footer">
+      Controlled security research demonstration only.
+    </div>
+  </main>
+</body>
+</html>
